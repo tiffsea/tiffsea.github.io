@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <title>Blog - Tiffany Seeley</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
 
-    <div class="navbar">
-      <a href="/">Home</a>
-      <a href="/contact">Contact</a>
-      <a href="/research" class="active">Research</a>
-    </div>
+    <header class="header">
+        <div class="logo">
+            <img src="/images/logo.svg" alt="MySite Logo">
+        </div>
+        <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/research" class="active">Research</a>
+        <a href="https://github.com/tiffsea?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub <span>&#x2197;</span></a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="card">
+          <h1>Research Projects</h1>
+          <h2>Coming Soon!</h2>
+          <p>I plan to update my website with software development projects and experimental analysis in the domain of Intelligent Biological and Cognitive Systems.</p>
+        </section>
 
-    <div class="container">
-      <div class="header">
-        <h1>Research Projects</h1>
-        <h2>Coming Soon!</h2>
-        <p>I plan to update my website with software development projects and experimental analysis in the domain of Intelligent Biological and Cognitive Systems.</p>
-      </div>
-    </div>
+        <!-- <section class="card">
+        </section>
 
-    <footer>
-        <div class="footer-section">
-          <!-- Content for section 1 -->
-          <p>&copy; Copyright 2025 </p>
-          <p>Tiffany L. Seeley </p>
-        </div>
-        <div class="footer-section">
-          <p><b><u>Location</u></b></p>
-          <p>Institute for Human Machine Cognition</p>
-          <p>Pensacola, FL, USA</p>
-        </div>
-        <div class="footer-section">
-          <!-- Content for section 3 (e.g., contact info) -->
-          <p><b><u>Last Updated</u></b></p>
-          <p>2025-01-07</p>
-        </div>
+        <section class="card">
+        </section> -->
+    </main>
+
+    <footer class="footer">
+        <section class="card">
+            <p>&copy; Copyright 2025 </p>
+            <p>Tiffany L. Seeley </p>
+        </section>
+
+        <section class="card">
+            <p>University of West Florida</p>
+            <p>Institute for Human Machine Cognition</p>
+            <p>Pensacola, FL, USA</p>
+            <a href="mailto:tseeley@ihmc.org" style="color: green;">tseeley@ihmc.org</a>
+        </section>
     </footer>
 
-  </body>
+</body>
 </html>
